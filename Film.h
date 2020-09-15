@@ -5,20 +5,28 @@
 #ifndef UNTITLED_FILM_H
 #define UNTITLED_FILM_H
 #include <iostream>
-#include <list>
+#include <set>
 
 using namespace std;
 
 class Film {
 public:
-    Film(string& t, int y, string& d, bool iL, list<string> g) : title(t), year(y), director(d), isLoad(iL), genres(g) {};
+    Film(string& t, int y, string& d, bool iL, set<string> g) : title(t), year(y), director(d), isLoad(iL), genres(g) {};
+
+    const string &getTitle() const {
+        return title;
+    }
+
+    const set<string> &getGenres() const {
+        return genres;
+    }
 
 private:
     string title;
     int year;
     string director;
     bool isLoad;
-    list<string> genres;
+    set<string> genres;
 };
 
 

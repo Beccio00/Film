@@ -82,7 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/Film/Collection.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/Film/Collection.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/Film/Film.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/Film/Library.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/Film/Library.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Programmazione/EserciziEsame/Film/main.cpp">
