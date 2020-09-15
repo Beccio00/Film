@@ -5,7 +5,14 @@
 #include "Library.h"
 
 void Library::addFilm(Film *f) {
-    library.push_back(f);
+    if(!f->isInLibrary()) {
+        library.push_back(f);
+        f->setInLibrary(true);
+        cout << "Il film  " << f->getTitle() << " è stato inserito nella libreria" << endl;
+    }
+    else{
+        cout << "Non è possibile inserie il film " << f->getTitle() << endl;
+    }
 }
 
 bool Library::searchTitle(string& t) {

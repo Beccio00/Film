@@ -11,7 +11,7 @@ using namespace std;
 
 class Film {
 public:
-    Film(string& t, int y, string& d, bool iL, set<string> g) : title(t), year(y), director(d), isLoad(iL), genres(g) {};
+    Film(string& t, int y, string& d, bool iL, set<string> g, bool inL = false) : title(t), year(y), director(d), isLoad(iL), genres(g), inLibrary(inL) {};
 
     const string &getTitle() const {
         return title;
@@ -21,12 +21,21 @@ public:
         return genres;
     }
 
+    bool isInLibrary() const {
+        return inLibrary;
+    }
+
+    void setInLibrary(bool inLibrary) {
+       this->inLibrary = inLibrary;
+    }
+
 private:
     string title;
     int year;
     string director;
     bool isLoad;
     set<string> genres;
+    bool inLibrary;
 };
 
 
