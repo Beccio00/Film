@@ -25,6 +25,10 @@ public:
         return inLibrary;
     }
 
+    bool isLoad1() const {
+        return isLoad;
+    }
+
     void setInLibrary(bool inLibrary) {
        this->inLibrary = inLibrary;
     }

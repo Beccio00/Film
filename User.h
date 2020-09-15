@@ -9,7 +9,7 @@
 class User {
 public:
     User() = default;
-    User(set<Collection*> c) : collections(c){};
+    User(string& n, set<Collection*> c) : name(n), collections(c){};
 
     void addCollection(Collection* c);
 
