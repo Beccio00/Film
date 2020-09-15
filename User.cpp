@@ -11,3 +11,14 @@ void User::addCollection(Collection *c) {
 void User::removeCollection(Collection *c) {
     collections.erase(c);
 }
+
+void User::printCollectionsLoaded() {
+    for(auto it : collections)
+        it->printLoader();
+
+}
+
+void User::printCollentiosGenres(string &g) {
+    for(auto it : collections )
+        it->printGenres(g);
+}

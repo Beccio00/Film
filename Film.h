@@ -11,7 +11,7 @@ using namespace std;
 
 class Film {
 public:
-    Film(string& t, int y, string& d, bool iL, set<string> g, bool inL = false) : title(t), year(y), director(d), isLoad(iL), genres(g), inLibrary(inL) {};
+    Film(string t, int y, string d, bool iL, set<string> g, bool inL = false) : title(t), year(y), director(d), isLoad(iL), genres(g), inLibrary(inL) {};
 
     const string &getTitle() const {
         return title;

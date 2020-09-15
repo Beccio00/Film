@@ -8,8 +8,10 @@
 
 class User {
 public:
-    User() = default;
     User(string& n, set<Collection*> c) : name(n), collections(c){};
+
+    void printCollectionsLoaded();
+    void printCollentiosGenres(string& g);
 
     void addCollection(Collection* c);
 

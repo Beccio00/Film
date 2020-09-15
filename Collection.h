@@ -7,6 +7,7 @@
 #include "Film.h"
 
 class Collection {
+public:
     Collection(string& n, set<Film*> c) : name(n), collection(c) {};
 
     void addFilm(Film* f);

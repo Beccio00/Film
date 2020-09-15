@@ -24,7 +24,10 @@ void Collection::printLoader() {
 
 void Collection::printGenres(string &g) {
     for(auto it : collection){
-        for(auto itr : it->getGenres())
+        for(auto itr : it->getGenres()){
+            if(itr == g)
+                cout << itr << endl;
+        }
 
     }
 }
